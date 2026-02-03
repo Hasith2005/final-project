@@ -1,0 +1,28 @@
+{
+  "os":  "Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "python":  "CPython 3.10.12",
+  "startedAt":  "2026-01-30T23:16:15.098071Z",
+  "program":  "/home/hasi/hxk256/feynman.ipynb",
+  "codePath":  "/home/hasi/hxk256/feynman.ipynb",
+  "codePathLocal":  "feynman.ipynb",
+  "git":  {
+    "remote":  "https://hxk256:@git.cs.bham.ac.uk/projects-2025-26/hxk256.git",
+    "commit":  "a110d4d794d01ff06934c440b1273ac821853cd9"
+  },
+  "email":  "hxk256@student.bham.ac.uk",
+  "root":  "/home/hasi/hxk256",
+  "host":  "envy",
+  "executable":  "/home/hasi/hxk256/.venv/bin/python",
+  "cpu_count":  8,
+  "cpu_count_logical":  16,
+  "disk":  {
+    "/":  {
+      "total":  "1081101176832",
+      "used":  "110004948992"
+    }
+  },
+  "memory":  {
+    "total":  "16416935936"
+  },
+  "writerId":  "c6wu4uiuzuqcyymaxf0yf0kzl6v82uma"
+}

@@ -1,0 +1,47 @@
+_wandb:
+    value:
+        cli_version: 0.24.1
+        e:
+            c6wu4uiuzuqcyymaxf0yf0kzl6v82uma:
+                codePath: /home/hasi/hxk256/feynman.ipynb
+                codePathLocal: feynman.ipynb
+                cpu_count: 8
+                cpu_count_logical: 16
+                disk:
+                    /:
+                        total: "1081101176832"
+                        used: "110004948992"
+                email: hxk256@student.bham.ac.uk
+                executable: /home/hasi/hxk256/.venv/bin/python
+                git:
+                    commit: a110d4d794d01ff06934c440b1273ac821853cd9
+                    remote: https://hxk256:@git.cs.bham.ac.uk/projects-2025-26/hxk256.git
+                host: envy
+                memory:
+                    total: "16416935936"
+                os: Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.35
+                program: /home/hasi/hxk256/feynman.ipynb
+                python: CPython 3.10.12
+                root: /home/hasi/hxk256
+                startedAt: "2026-01-30T23:16:15.098071Z"
+                writerId: c6wu4uiuzuqcyymaxf0yf0kzl6v82uma
+        m: []
+        python_version: 3.10.12
+        t:
+            "3":
+                - 2
+                - 16
+            "4": 3.10.12
+            "5": 0.24.1
+            "8":
+                - 1
+            "12": 0.24.1
+            "13": linux-x86_64
+architecture:
+    value: CNN
+dataset:
+    value: CIFAR-100
+epochs:
+    value: 10
+learning_rate:
+    value: 0.02

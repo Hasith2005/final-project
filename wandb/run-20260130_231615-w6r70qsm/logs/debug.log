@@ -1,0 +1,28 @@
+2026-01-30 23:16:15,101 INFO    MainThread:1989 [wandb_setup.py:_flush():81] Current SDK version is 0.24.1
+2026-01-30 23:16:15,101 INFO    MainThread:1989 [wandb_setup.py:_flush():81] Configure stats pid to 1989
+2026-01-30 23:16:15,101 INFO    MainThread:1989 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-01-30 23:16:15,102 INFO    MainThread:1989 [wandb_init.py:setup_run_log_directory():717] Logging user logs to /home/hasi/hxk256/wandb/run-20260130_231615-w6r70qsm/logs/debug.log
+2026-01-30 23:16:15,102 INFO    MainThread:1989 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to /home/hasi/hxk256/wandb/run-20260130_231615-w6r70qsm/logs/debug-internal.log
+2026-01-30 23:16:15,102 INFO    MainThread:1989 [wandb_init.py:monkeypatch_ipython():636] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fdfcce7dc00>
+2026-01-30 23:16:15,102 INFO    MainThread:1989 [wandb_init.py:init():844] calling init triggers
+2026-01-30 23:16:15,102 INFO    MainThread:1989 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.02, 'architecture': 'CNN', 'dataset': 'CIFAR-100', 'epochs': 10, '_wandb': {}}
+2026-01-30 23:16:15,102 INFO    MainThread:1989 [wandb_init.py:init():892] starting backend
+2026-01-30 23:16:15,564 INFO    MainThread:1989 [wandb_init.py:init():895] sending inform_init request
+2026-01-30 23:16:15,575 INFO    MainThread:1989 [wandb_init.py:init():903] backend started and connected
+2026-01-30 23:16:15,589 INFO    MainThread:1989 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2026-01-30 23:16:15,590 INFO    MainThread:1989 [wandb_init.py:init():973] updated telemetry
+2026-01-30 23:16:15,632 INFO    MainThread:1989 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout
+2026-01-30 23:16:16,248 INFO    MainThread:1989 [wandb_init.py:init():1042] starting run threads in backend
+2026-01-30 23:16:16,409 INFO    MainThread:1989 [wandb_run.py:_console_start():2529] atexit reg
+2026-01-30 23:16:16,409 INFO    MainThread:1989 [wandb_run.py:_redirect():2377] redirect: wrap_raw
+2026-01-30 23:16:16,409 INFO    MainThread:1989 [wandb_run.py:_redirect():2446] Wrapping output streams.
+2026-01-30 23:16:16,409 INFO    MainThread:1989 [wandb_run.py:_redirect():2469] Redirects installed.
+2026-01-30 23:16:16,422 INFO    MainThread:1989 [wandb_init.py:init():1082] run started, returning control to user process
+2026-01-30 23:16:16,428 INFO    MainThread:1989 [wandb_run.py:_finish():2295] finishing run hxk256-university-of-birmingham/my-awesome-project/w6r70qsm
+2026-01-30 23:16:16,432 INFO    MainThread:1989 [jupyter.py:save_ipynb():359] not saving jupyter notebook
+2026-01-30 23:16:16,432 INFO    MainThread:1989 [wandb_init.py:_jupyter_teardown():621] cleaning up jupyter logic
+2026-01-30 23:16:16,432 INFO    MainThread:1989 [wandb_run.py:_atexit_cleanup():2494] got exitcode: 0
+2026-01-30 23:16:16,433 INFO    MainThread:1989 [wandb_run.py:_restore():2476] restore
+2026-01-30 23:16:16,434 INFO    MainThread:1989 [wandb_run.py:_restore():2482] restore done
+2026-01-30 23:16:17,489 INFO    MainThread:1989 [wandb_run.py:_footer_sync_info():3871] logging synced files
