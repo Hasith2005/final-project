@@ -1,0 +1,98 @@
+Filename,Equation,loss,Predicted Equation,equivalent
+III.15.27,2*pi*alpha/(d*n),1.6434336e-05,6.28323319849305*x0/(x1*x2),True
+III.4.33,h*omega/(2*pi*(exp(h*omega/(2*pi*T*kb)) - 1)),0.60217917,x2*x3,False
+I.24.6,m*x**2*(omega**2 + omega_0**2)/4,1.123254,x0*x3**2*(x1 + x2 - 1.8324685),False
+III.9.52,8*pi*Ef*p_d*sin(t*(omega - omega_0)/2)**2/(h*t*(omega - omega_0)**2),6.1967506,4.42580905926945*x0*x1*exp(0.51191103*x2*cos(x4 - x5))/x3,False
+I.34.14,omega_0*(1 + v/c)/sqrt(1 - v**2/c**2),0.010147281,x2*exp(x1/x0),False
+III.7.38,4*pi*B*mom/h,0.0033501922,12.566415*x0*x1/x2,True
+II.15.4,-B*mom*cos(theta),4.403916e-05,(-x0*x1 - 9.022781e-5)*cos(x2),False
+I.41.16,h*omega**3/(2*pi**3*c**2*(exp(h*omega/(2*pi*T*kb)) - 1)),0.045785625,x1*x3*(1.2871022**x0 - 1.2508979)/x4**2,False
+I.18.12,F*r*sin(theta),5.7978334e-05,x0*x1*sin(x2),True
+II.11.3,Ef*q/(m*(-omega**2 + omega_0**2)),0.0006877602,x0*x1*x3**(-x2/2 - 1.3674022),False
+II.21.32,q/(4*pi*epsilon*r*(1 - v/c)),0.00016223532,0.11023287*x0/(x1*x2),False
+II.6.15b,3*p_d*sin(theta)*cos(theta)/(4*pi*epsilon*r**3),9.968734e-10,0.23873317*x1*sin(x2)*cos(x2)/(x0*x3**3),True
+II.34.29b,2*pi*B*Jz*g_*mom/h,0.09215547,6.283216*x0*x2*x3*x4/x1,True
+I.14.3,g*m*z,0.0010782004,x0*x1*x2,True
+I.13.12,G*m1*m2*(1/r2 - 1/r1),8.336993e-05,x0*x1*x4*(x2 - x3)/(x2*x3),True
+I.10.7,m_0/sqrt(1 - v**2/c**2),0.0003783119,x0/cos(x1/x2),False
+I.12.5,Ef*q2,0.00010792637,x0*x1,True
+I.43.16,Volt*mu_drift*q/d,0.00022472035,x0*x1*x2/x3,True
+II.15.5,-Ef*p_d*cos(theta),4.3287255e-05,-x0*x1*cos(x2) + 5.8796588e-5,False
+I.12.11,q*(B*v*sin(theta) + Ef),0.0007925053,x0*(x1 + x2*x3*sin(x4)),True
+I.6.2,sqrt(2)*exp(-theta**2/(2*sigma**2))/(2*sqrt(pi)*sigma),5.6163495e-05,0.23859775*sin((x1 + 0.817377)/x0)/x1,False
+I.32.17,4*pi*Ef**2*c*epsilon*omega**4*r**2/(3*(omega**2 - omega_0**2)**2),2.6624832,(x4*(x2 + x3)/x5)**4.369077,False
+I.15.3x,(-t*u + x)/sqrt(1 - u**2/c**2),0.040670544,x0 - x1*x3,False
+I.14.4,k_spring*x**2/2,0.00040554805,0.50000220000968*x0*x1**2,True
+III.10.19,mom*sqrt(Bx**2 + By**2 + Bz**2),0.45963368,0.6033375*x0*(x1 + x2 + x3),False
+I.30.3,Int_0*sin(n*theta/2)**2/sin(theta/2)**2,0.51725537,x0*exp(cos(x1) - cos(x1*x2)),False
+I.34.8,B*q*v/p,0.00022492126,x0*x1*x2/x3,True
+I.43.31,T*kb*mob,0.0011239937,x0*x1*x2,True
+I.12.4,q1/(4*pi*epsilon*r**2),1.0795644e-09,0.07957738*x0/(x1*x2**2),True
+I.40.1,n_0*exp(-g*m*x/(T*kb)),0.037693594,0.14370114**(0.478404940878487*x1*x2*x4/(x0*x3))*x5,False
+I.27.6,1/(n/d2 + 1/d1),7.0961073e-07,x1/(x2 + x1/x0),True
+III.4.32,1/(exp(h*omega/(2*pi*T*kb)) - 1),0.00043662777,-0.46956706 + 6.275693*x2*x3/(x0*x1),False
+II.6.15a,3*p_d*z*sqrt(x**2 + y**2)/(4*pi*epsilon*r**5),0.0019504585,0.043251585*2.0659485**cos(x0)*x1*x5*sqrt(x3*x4**0.41131508)/(0.035068672**cos(x2)*x2),False
+I.37.4,I1 + I2 + 2*sqrt(I1*I2)*cos(delta),0.048791725,(x0 + x1)*(cos(x2) + 1.0167052),False
+I.43.43,kb*v/(A*(gamma - 1)),5.2309797e-06,x1*x3/(x2*(x0 - 0.9999867)),False
+II.8.7,3*q**2/(20*pi*d*epsilon),1.38409755e-08,0.047746625*x0**2/(x1*x2),True
+I.6.2b,sqrt(2)*exp(-(theta - theta1)**2/(2*sigma**2))/(2*sqrt(pi)*sigma),0.00062510755,0.393882*sin(x1/sqrt(x2))/x0,False
+II.34.2a,q*v/(2*pi*r),5.448522e-07,0.1591541*x0*x1/x2,True
+II.11.27,Ef*alpha*epsilon*n/(-alpha*n/3 + 1),0.00069551973,1.3875511*x2*x3*(x0*x1)**1.1767355,False
+I.34.1,omega_0/(1 - v/c),2.0427993e-05,x0*x2/(x0 - x1),True
+II.6.11,p_d*cos(theta)/(4*pi*epsilon*r**2),5.2471555e-10,0.07957877*x1*cos(x2)/(x0*x3**2),True
+II.11.20,Ef*n_rho*p_d**2/(3*T*kb),7.53335e-05,0.3333409*x0*x1**2*x2/(x3*x4),True
+II.13.17,I/(2*pi*c**2*epsilon*r),8.2766766e-10,0.15915737*x2/(x0*x1**2*x3),True
+I.15.3t,(t - u*x/c**2)/sqrt(1 - u**2/c**2),0.00046831445,x2*(-x0 + x3**(x2/2))/x1**1.9037458 + x3,False
+II.34.29a,h*q/(4*pi*m),1.3627051e-07,0.07957628*x0*x1/x2,True
+II.36.38,H*mom/(T*kb) + M*alpha*mom/(T*c**2*epsilon*kb),0.015350509,x0*(x1 + 6.52268499358088*exp(0.74533945*x4/x5 - x6 - 2.4096456/x7))/(x2*x3),False
+II.34.2,q*r*v/2,0.0002755455,0.4999955*x0*x1*x2,True
+I.6.2a,sqrt(2)*exp(-theta**2/2)/(2*sqrt(pi)),1.1141537e-08,0.3989429/exp(x0)**(x0/2),False
+II.2.42,A*kappa*(-T1 + T2)/d,5.8024943e-05,x0*x3*(-x1 + x2)/x4,True
+II.4.23,q/(4*pi*epsilon*r),2.6722755e-09,0.07957784*x0/(x1*x2),True
+II.24.17,sqrt(-pi**2/d**2 + omega**2/c**2),0.04741493,x0/x1,False
+II.34.11,B*g_*q/(2*m),5.600311e-05,0.49999810000722*x0*x1*x2/x3,True
+I.29.16,sqrt(x1**2 - 2*x1*x2*cos(theta1 - theta2) + x2**2),2.044657,3.866421 - cos(x2 - x3),False
+I.26.2,arcsin(n*sin(theta2)),0.004888457,x0*sin(x1),False
+III.14.14,I_0*(exp(Volt*q/(T*kb)) - 1),6.760095,x0*exp(-x3 + (x1 + x2)/x4),False
+I.38.12,epsilon*h**2/(pi*m*q**2),2.640789e-06,0.31830788*x2**2*x3/(x0*x1**2),True
+I.44.4,T*kb*n*log(V2/V1),21.83235,x0*x2*(-x3 + x4)*log(x1),False
+I.9.18,G*m1*m2/((-x1 + x2)**2 + (-y1 + y2)**2 + (-z1 + z2)**2),0.0005184288,0.15196086*x0*x1*(x6 + x8)*(x2*(x2 + sin(x5)) + x4)/(x3*x7),False
+I.47.23,sqrt(gamma*pr/rho),3.5366788e-06,sqrt(x0*x1/x2),True
+II.13.23,rho_c_0/sqrt(1 - v**2/c**2),0.00037579547,x0/cos(x1/x2),False
+I.34.27,h*omega/(2*pi),2.7433196e-06,0.15915446*x0*x1,True
+I.8.14,sqrt((-x1 + x2)**2 + (-y1 + y2)**2),5.375582e-06,sqrt((-x0 + x1)**2.0 + (-x2 + x3)**2.0),False
+III.12.43,h*n/(2*pi),2.7649057e-06,0.15915525*x0*x1,True
+II.38.14,Y/(2*sigma + 2),2.1596978e-07,x0/(2*x1 + 2.0000026),False
+I.32.5,a**2*q**2/(6*pi*c**3*epsilon),0.00036735082,(x0*x1/(sqrt(x2)*x3*(x3 + 2.114229)**1.2945846))**1.9802082,False
+I.11.19,x1*y1 + x2*y2 + x3*y3,0.0007933076,x0*x3 + x1*x4 + x2*x5,False
+I.50.26,x1*(alpha*cos(omega*t)**2 + cos(omega*t)),0.80871814,(x3 + cos(x1*x2))*(cos(2*x1*x2) + 0.8136586),False
+II.13.34,rho_c_0*v/sqrt(1 - v**2/c**2),0.116819546,x0*x1,False
+II.37.1,B*mom*(chi + 1),0.0018350601,x0*x1*(x2 + 0.99996513),False
+III.13.18,4*pi*E_n*d**2*k/h,0.5224119,12.566334*x0*x1**2*x2/x3,True
+I.30.5,arcsin(lambd/(d*n)),9.4225565e-05,x0/(x1*x2),False
+I.16.6,(u + v)/(1 + u*v/c**2),0.031707946,x0 + 0.15041697*(-x0 + x2)*(x0 - x1),False
+II.11.28,alpha*n/(-alpha*n/3 + 1) + 1,0.0016484894,exp(x0)**x1,False
+II.10.9,sigma_den/(epsilon*(chi + 1)),1.741291e-07,x0/(x1*(x2 + 0.9999884)),False
+II.27.18,Ef**2*epsilon,0.0016121757,x0*x1**2,True
+III.17.37,beta*(alpha*cos(theta) + 1),2.6102041e-05,x0*x1*cos(x2) + x0,True
+I.29.4,omega/c,3.6644194e-06,x0/x1,True
+I.13.4,m*(u**2 + v**2 + w**2)/2,0.0028046588,0.5000122*x0*(x1**1.9999899 + x2**1.9999919 + x3**1.9999919),False
+I.12.2,q1*q2/(4*pi*epsilon*r**2),1.1085143e-08,0.07957794*x0*x1/(x2*x3**2),True
+III.8.54,sin(2*pi*E_n*t/h)**2,0.091051474,0.5368499**(x2**cos(6.612432*x2/(x0*x1))),False
+I.39.1,3*V*pr/2,0.00024060387,1.4999967*x0*x1,True
+I.39.11,V*pr/(gamma - 1),2.6938373e-05,x1*x2/(x0 - 1.0000207),False
+III.21.20,-A_vec*q*rho_c_0/m,0.00022253847,-0.9999918*x0*x1*x2/x3,True
+II.38.3,A*Y*x/d,0.00022091913,x0*x1*x3/x2,True
+II.27.16,Ef**2*c*epsilon,0.016641354,x0*x1*x2**2,True
+III.19.51,-m*q**4/(8*epsilon**2*h**2*n**2),0.14283095,-3.67049739350639*x0/(x2*x3*x4/(x1 - 0.984806))**1.9837892,False
+II.3.24,Pwr/(4*pi*r**2),5.4030123e-09,0.0795765*x0/x1**2,True
+I.12.1,Nn*mu,0.00010984468,x0*x1,True
+I.18.4,(m1*r1 + m2*r2)/(m1 + m2),0.0020626725,0.498686484733536*x2 + 0.498686484733536*x3 + 0.498686484733536*(x0 - x1)*(0.176798665198366*x2 - 0.176798665198366*x3),False
+III.15.14,h**2/(8*pi**2*E_n*d**2),4.1160428e-10,0.012664887*x0**2/(x1*x2**2),True
+II.8.31,Ef**2*epsilon/2,0.00041167994,0.50000256*x0*x1**2,True
+I.39.22,T*kb*n/V,0.00021961545,x0*x1*x3/x2,True
+I.18.14,m*r*v*sin(theta),0.00065925514,x0*x1*x2*sin(x3),True
+II.35.18,n_0/(exp(B*mom/(T*kb)) + exp(-B*mom/(T*kb))),5.886829e-05,0.4727302*x0*sin(2.04129526460306*exp(-x3*x4/(x1*x2))),False
+I.25.13,q/C,2.0780901e-06,x0/x1,True
+II.35.21,mom*n_rho*tanh(B*mom/(T*kb)),4.486834,x0*(x1 - 0.7452803),False
+III.15.12,2*U*(1 - cos(d*k)),6.570746e-05,1.9999362*x0*sin(x1*x2 - 1.5708106) + 1.9999362*x0,False

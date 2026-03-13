@@ -1,0 +1,21 @@
+,Filename,Equation,loss,sympy format,equivalent
+0,III.15.27,2*pi*alpha/(d*n),1.6434336e-05,6.28323319849305*x0/(x1*x2),True
+1,III.4.33,h*omega/(2*pi*(exp(h*omega/(2*pi*T*kb)) - 1)),0.60217917,x2*x3,False
+2,I.24.6,m*x**2*(omega**2 + omega_0**2)/4,1.123254,x0*x3**2*(x1 + x2 - 1.8324685),False
+3,III.9.52,8*pi*Ef*p_d*sin(t*(omega - omega_0)/2)**2/(h*t*(omega - omega_0)**2),6.1967506,4.42580905926945*x0*x1*exp(0.51191103*x2*cos(x4 - x5))/x3,False
+4,I.34.14,omega_0*(1 + v/c)/sqrt(1 - v**2/c**2),0.010147281,x2*exp(x1/x0),False
+5,III.7.38,4*pi*B*mom/h,0.0033501922,12.566415*x0*x1/x2,True
+6,II.15.4,-B*mom*cos(theta),4.403916e-05,(-x0*x1 - 9.022781e-5)*cos(x2),False
+7,I.41.16,h*omega**3/(2*pi**3*c**2*(exp(h*omega/(2*pi*T*kb)) - 1)),0.045785625,x1*x3*(1.2871022**x0 - 1.2508979)/x4**2,False
+8,I.18.12,F*r*sin(theta),5.7978334e-05,x0*x1*sin(x2),True
+9,II.11.3,Ef*q/(m*(-omega**2 + omega_0**2)),0.0006877602,x0*x1*x3**(-x2/2 - 1.3674022),False
+10,II.21.32,q/(4*pi*epsilon*r*(1 - v/c)),0.00016223532,0.11023287*x0/(x1*x2),False
+11,II.6.15b,3*p_d*sin(theta)*cos(theta)/(4*pi*epsilon*r**3),9.968734e-10,0.23873317*x1*sin(x2)*cos(x2)/(x0*x3**3),True
+12,II.34.29b,2*pi*B*Jz*g_*mom/h,0.09215547,6.283216*x0*x2*x3*x4/x1,True
+13,I.14.3,g*m*z,0.0010782004,x0*x1*x2,True
+14,I.13.12,G*m1*m2*(1/r2 - 1/r1),8.336993e-05,x0*x1*x4*(x2 - x3)/(x2*x3),True
+15,I.10.7,m_0/sqrt(1 - v**2/c**2),0.0003783119,x0/cos(x1/x2),False
+16,I.12.5,Ef*q2,0.00010792637,x0*x1,True
+17,I.43.16,Volt*mu_drift*q/d,0.00022472035,x0*x1*x2/x3,True
+18,II.15.5,-Ef*p_d*cos(theta),4.3287255e-05,-x0*x1*cos(x2) + 5.8796588e-5,False
+19,I.12.11,q*(B*v*sin(theta) + Ef),0.0007925053,x0*(x1 + x2*x3*sin(x4)),True

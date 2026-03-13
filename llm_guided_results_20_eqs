@@ -1,0 +1,20 @@
+Filename,Equation,loss,Predicted Equation,equivalent
+III.15.27,2*pi*alpha/(d*n),1.6477441e-05,6.2831693*x0/(x1*x2),True
+III.4.33,h*omega/(2*pi*(exp(h*omega/(2*pi*T*kb)) - 1)),0.6020032,x2*x3,False
+I.24.6,m*x**2*(omega**2 + omega_0**2)/4,1.1234809,x0*x3**2*(x1 + x2 - 1.8335813),False
+III.9.52,8*pi*Ef*p_d*sin(t*(omega - omega_0)/2)**2/(h*t*(omega - omega_0)**2),32.690456,x0*exp(1.2991015**(x1 + cos(x3)) + cos(x4 - x5)),False
+I.34.14,omega_0*(1 + v/c)/sqrt(1 - v**2/c**2),0.0101164775,x2*exp(x1/x0),False
+III.7.38,4*pi*B*mom/h,0.0032994095,12.566455*x0*x1/x2,True
+II.15.4,-B*mom*cos(theta),4.3365515e-05,x0*x1*sin(x2 - 1.5707933),False
+I.41.16,h*omega**3/(2*pi**3*c**2*(exp(h*omega/(2*pi*T*kb)) - 1)),0.351582,(x0/x4)**(sqrt(x1))*log(x3),False
+I.18.12,F*r*sin(theta),5.7153928e-05,x0*x1*sin(x2),True
+II.11.3,Ef*q/(m*(-omega**2 + omega_0**2)),6.3267384e-05,1.89322226429383*x0*x1*sqrt(x4)/(x2*x3**2.4833374),False
+II.21.32,q/(4*pi*epsilon*r*(1 - v/c)),5.271626e-09,0.0795777*x0*x4/(x1*x2*(-x3 + x4)),True
+II.6.15b,3*p_d*sin(theta)*cos(theta)/(4*pi*epsilon*r**3),9.919024e-10,0.23874357*x1*sin(x2)*cos(x2)/(x0*x3**2.9999065),False
+II.34.29b,2*pi*B*Jz*g_*mom/h,0.09117229,6.2831545*x0*x2*x3*x4/x1,True
+I.14.3,g*m*z,0.0011077013,x0*x1*x2,True
+I.13.12,G*m1*m2*(1/r2 - 1/r1),0.43123898,x0*x1*log((x2/x3)**x4)/log(2*x2*x3),False
+I.10.7,m_0/sqrt(1 - v**2/c**2),0.00038008986,x0/cos(x1/x2),False
+I.12.5,Ef*q2,0.000106912026,x0*x1,True
+I.43.16,Volt*mu_drift*q/d,0.00021922152,x0*x1*x2/x3,True
+II.15.5,-Ef*p_d*cos(theta),4.2649175e-05,x1*(-x0*cos(x2) + 2.701834e-5),False
