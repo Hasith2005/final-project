@@ -1,0 +1,21 @@
+complexity,loss,equation,score,sympy_format,lambda_format,Filename
+7,1.650664e-05,((6.2831616 / d_var) * alpha_var) / n_var,5.882378143020758,6.2831616*alpha_var/(d_var*n_var),PySRFunction(X=>6.2831616*alpha_var/(d_var*n_var)),III.15.27
+3,0.6024126,T_var * kb_var,1.8814877934493162,T_var*kb_var,PySRFunction(X=>T_var*kb_var),III.4.33
+11,1.123408,x_var * ((x_var * (-1.8325051 + (omega_0_var + omega_var))) * m_var),1.6278156713962282,m_var*x_var*x_var*(omega_0_var + omega_var - 1.8325051),PySRFunction(X=>m_var*x_var*x_var*(omega_0_var + omega_var - 1.8325051)),I.24.6
+13,26.984388,(p_d_var * (Ef_var * exp(cos(omega_0_var - omega_var) + 1.5410019))) / h_var,0.6483914241528683,Ef_var*p_d_var*exp(cos(omega_0_var - omega_var) + 1.5410019)/h_var,PySRFunction(X=>Ef_var*p_d_var*exp(cos(omega_0_var - omega_var) + 1.5410019)/h_var),III.9.52
+6,0.010132765,exp(v_var / c_var) * omega_0_var,3.1599688924775093,omega_0_var*exp(v_var/c_var),PySRFunction(X=>omega_0_var*exp(v_var/c_var)),I.34.14
+7,0.0033851478,((B_var * mom_var) * 12.566359) / h_var,5.8796485635099565,B_var*mom_var*12.566359/h_var,PySRFunction(X=>B_var*mom_var*12.566359/h_var),III.7.38
+8,4.3998174e-05,0.000119380886 - ((cos(theta_var) * B_var) * mom_var),5.873890350168857,0.000119380886 - B_var*mom_var*cos(theta_var),PySRFunction(X=>0.000119380886 - B_var*mom_var*cos(theta_var)),II.15.4
+21,0.00026163986,(omega_var * ((omega_var * -0.10077349) / (c_var / (T_var / c_var)))) * ((omega_var / ((14.033078 / h_var) * T_var)) - kb_var),1.304540962526141,omega_var*omega_var*(-0.10077349)*(-kb_var + omega_var/((14.033078*T_var/h_var)))/(c_var/((T_var/c_var))),PySRFunction(X=>omega_var*omega_var*(-0.10077349)*(-kb_var + omega_var/((14.033078*T_var/h_var)))/(c_var/((T_var/c_var)))),I.41.16
+4,13.503057,sin(F_var) * 9.041013,1.1319213644198323,sin(F_var)*9.041013,PySRFunction(X=>sin(F_var)*9.041013),I.18.12
+14,8.7747896e-05,q_var * (exp((0.34296232 * omega_var) - (omega_0_var ^ 0.81742257)) * (Ef_var / m_var)),1.518291323821368,Ef_var*q_var*exp(-omega_0_var**0.81742257 + 0.34296232*omega_var)/m_var,PySRFunction(X=>Ef_var*q_var*exp(-omega_0_var**0.81742257 + 0.34296232*omega_var)/m_var),II.11.3
+7,0.0001622442,q_var / (epsilon_var * (r_var * 9.069233)),1.608629914692787,q_var/((epsilon_var*r_var*9.069233)),PySRFunction(X=>q_var/((epsilon_var*r_var*9.069233))),II.21.32
+16,9.916196e-10,(0.11936182 / epsilon_var) * (((p_d_var * sin(theta_var * 1.9999928)) / r_var) / (r_var ^ 1.9999887)),8.594313360964026,0.11936182*p_d_var*sin(theta_var*1.9999928)/(epsilon_var*r_var*(r_var**1.9999887)),PySRFunction(X=>0.11936182*p_d_var*sin(theta_var*1.9999928)/(epsilon_var*r_var*(r_var**1.9999887))),II.6.15b
+11,0.08970502,(g__var * (Jz_var * 6.283183)) * ((B_var * mom_var) / h_var),5.876120137875915,g__var*Jz_var*6.283183*B_var*mom_var/h_var,PySRFunction(X=>g__var*Jz_var*6.283183*B_var*mom_var/h_var),II.34.29b
+5,0.0011002092,(z_var * m_var) * g_var,6.198319316166584,g_var*m_var*z_var,PySRFunction(X=>g_var*m_var*z_var),I.14.3
+13,8.381619e-05,((r1_var - r2_var) * (m1_var * m2_var)) / (r1_var * (r2_var / G_var)),5.5344687624612625,m1_var*m2_var*(r1_var - r2_var)/((r1_var*r2_var/G_var)),PySRFunction(X=>m1_var*m2_var*(r1_var - r2_var)/((r1_var*r2_var/G_var))),I.13.12
+6,0.00037937475,m_0_var / cos(v_var / c_var),3.3822934403108453,m_0_var/cos(v_var/c_var),PySRFunction(X=>m_0_var/cos(v_var/c_var)),I.10.7
+3,0.000106719825,Ef_var * q2_var,6.17606235666448,Ef_var*q2_var,PySRFunction(X=>Ef_var*q2_var),I.12.5
+7,0.00021275482,((q_var * mu_drift_var) * Volt_var) / d_var,12.296806928888412,Volt_var*mu_drift_var*q_var/d_var,PySRFunction(X=>Volt_var*mu_drift_var*q_var/d_var),I.43.16
+8,4.4353998e-05,Ef_var * (cos(theta_var) * (-3.9556417e-5 - p_d_var)),5.870008201538664,Ef_var*(-p_d_var - 3.9556417e-5)*cos(theta_var),PySRFunction(X=>Ef_var*(-p_d_var - 3.9556417e-5)*cos(theta_var)),II.15.5
+10,0.00078306877,q_var * (Ef_var + (sin(theta_var) * (B_var * v_var))),5.917630131942073,q_var*(B_var*v_var*sin(theta_var) + Ef_var),PySRFunction(X=>q_var*(B_var*v_var*sin(theta_var) + Ef_var)),I.12.11

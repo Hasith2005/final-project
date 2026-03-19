@@ -1,0 +1,21 @@
+complexity,loss,equation,score,sympy_format,lambda_format,Filename
+7,1.6439273e-05,((6.2832484 / n_var) / d_var) * alpha_var,5.884319278740673,6.2832484*alpha_var/(d_var*n_var),PySRFunction(X=>6.2832484*alpha_var/(d_var*n_var)),III.15.27
+3,0.6020658,T_var * kb_var,1.8817676648345332,T_var*kb_var,PySRFunction(X=>T_var*kb_var),III.4.33
+16,0.03412176,(((1.5273753 ^ omega_var) + exp(0.42415914 * omega_0_var)) - 2.6421802) * ((x_var * x_var) * m_var),2.8359013347268682,m_var*x_var*x_var*(1.5273753**omega_var + exp(0.42415914*omega_0_var) - 1*2.6421802),PySRFunction(X=>m_var*x_var*x_var*(1.5273753**omega_var + exp(0.42415914*omega_0_var) - 1*2.6421802)),I.24.6
+16,6.227061,Ef_var * ((p_d_var * (sqrt(exp(cos(omega_var - omega_0_var) * t_var)) * 4.5032578)) / h_var),0.7791057749702629,4.5032578*Ef_var*p_d_var*sqrt(exp(t_var*cos(omega_0_var - omega_var)))/h_var,PySRFunction(X=>4.5032578*Ef_var*p_d_var*sqrt(exp(t_var*cos(omega_0_var - omega_var)))/h_var),III.9.52
+6,0.010134683,exp(v_var / c_var) * omega_0_var,3.156844758573922,omega_0_var*exp(v_var/c_var),PySRFunction(X=>omega_0_var*exp(v_var/c_var)),I.34.14
+7,0.00337402,B_var * ((mom_var / h_var) * 12.566361),5.88125512931729,B_var*mom_var*12.566361/h_var,PySRFunction(X=>B_var*mom_var*12.566361/h_var),III.7.38
+8,4.3275708e-05,((3.5151865e-5 - mom_var) * B_var) * cos(theta_var),5.882125014878216,B_var*(3.5151865e-5 - mom_var)*cos(theta_var),PySRFunction(X=>B_var*(3.5151865e-5 - mom_var)*cos(theta_var)),II.15.4
+22,0.00025710877,(0.10179886 / c_var) * (T_var * ((((omega_var * omega_var) ^ exp(-0.13041008 * (h_var / (kb_var * T_var)))) * kb_var) / c_var)),1.8114613149423795,0.10179886*T_var*kb_var*(omega_var*omega_var)**exp(-0.13041008*h_var/(T_var*kb_var))/(c_var*c_var),PySRFunction(X=>0.10179886*T_var*kb_var*(omega_var*omega_var)**exp(-0.13041008*h_var/(T_var*kb_var))/(c_var*c_var)),I.41.16
+4,13.503461,sin(F_var) * 9.034713,1.1318811546543417,sin(F_var)*9.034713,PySRFunction(X=>sin(F_var)*9.034713),I.18.12
+13,1.6017462e-05,(Ef_var / (m_var * (omega_0_var / q_var))) / ((omega_0_var * 1.238501) - omega_var),2.8038327725731675,Ef_var/(((m_var*omega_0_var/q_var))*(omega_0_var*1.238501 - omega_var)),PySRFunction(X=>Ef_var/(((m_var*omega_0_var/q_var))*(omega_0_var*1.238501 - omega_var))),II.11.3
+16,8.37307e-07,(q_var / ((epsilon_var * ((c_var * -0.1724023) + sqrt(c_var - v_var))) * r_var)) * 0.11405866,1.5631207378582748,0.11405866*q_var/(epsilon_var*r_var*(-0.1724023*c_var + sqrt(c_var - v_var))),PySRFunction(X=>0.11405866*q_var/(epsilon_var*r_var*(-0.1724023*c_var + sqrt(c_var - v_var)))),II.21.32
+17,9.872648e-10,((((cos(theta_var) / r_var) * p_d_var) * sin(theta_var)) / r_var) * ((0.23873252 / epsilon_var) / r_var),3.9997788173537563,cos(theta_var)*p_d_var*sin(theta_var)*0.23873252/(r_var*r_var*epsilon_var*r_var),PySRFunction(X=>cos(theta_var)*p_d_var*sin(theta_var)*0.23873252/(r_var*r_var*epsilon_var*r_var)),II.6.15b
+11,0.088370085,(((6.283152 * B_var) * Jz_var) * g__var) * (mom_var / h_var),5.883453507308482,6.283152*B_var*Jz_var*g__var*mom_var/h_var,PySRFunction(X=>6.283152*B_var*Jz_var*g__var*mom_var/h_var),II.34.29b
+5,0.0010939745,m_var * (g_var * z_var),6.201201298060201,g_var*m_var*z_var,PySRFunction(X=>g_var*m_var*z_var),I.14.3
+13,8.304743e-05,(r1_var - r2_var) / (r1_var / ((m2_var * m1_var) / (r2_var / G_var))),5.5594472306704885,(r1_var - r2_var)/((r1_var/((m1_var*m2_var/((r2_var/G_var)))))),PySRFunction(X=>(r1_var - r2_var)/((r1_var/((m1_var*m2_var/((r2_var/G_var))))))),I.13.12
+6,0.0003779104,m_0_var / cos(v_var / c_var),3.3840780789350706,m_0_var/cos(v_var/c_var),PySRFunction(X=>m_0_var/cos(v_var/c_var)),I.10.7
+3,0.00011005228,Ef_var * q2_var,6.1606894617724715,Ef_var*q2_var,PySRFunction(X=>Ef_var*q2_var),I.12.5
+7,0.00022184853,mu_drift_var * (Volt_var * (q_var / d_var)),12.254926851775004,Volt_var*mu_drift_var*q_var/d_var,PySRFunction(X=>Volt_var*mu_drift_var*q_var/d_var),I.43.16
+8,4.4193195e-05,(0.00013737397 - (p_d_var * Ef_var)) * cos(theta_var),5.871813681224783,(0.00013737397 - Ef_var*p_d_var)*cos(theta_var),PySRFunction(X=>(0.00013737397 - Ef_var*p_d_var)*cos(theta_var)),II.15.5
+10,0.00080835685,q_var * ((sin(theta_var) * (B_var * v_var)) + Ef_var),11.665208041727242,q_var*(B_var*v_var*sin(theta_var) + Ef_var),PySRFunction(X=>q_var*(B_var*v_var*sin(theta_var) + Ef_var)),I.12.11

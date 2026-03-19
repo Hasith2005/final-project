@@ -1,0 +1,21 @@
+Filename,Equation,loss,Predicted Equation,equivalent
+III.15.27,2*pi*alpha/(d*n),1.6439273e-05,6.2832484*alpha_var/(d_var*n_var),True
+III.4.33,h*omega/(2*pi*(exp(h*omega/(2*pi*T*kb)) - 1)),0.6020658,T_var*kb_var,False
+I.24.6,m*x**2*(omega**2 + omega_0**2)/4,0.03412176,m_var*x_var**2*(1.5273753**omega_var + exp(0.42415914*omega_0_var) - 2.6421802),False
+III.9.52,8*pi*Ef*p_d*sin(t*(omega - omega_0)/2)**2/(h*t*(omega - omega_0)**2),6.227061,4.5032578*Ef_var*p_d_var*sqrt(exp(t_var*cos(omega_0_var - omega_var)))/h_var,False
+I.34.14,omega_0*(1 + v/c)/sqrt(1 - v**2/c**2),0.010134683,omega_0_var*exp(v_var/c_var),False
+III.7.38,4*pi*B*mom/h,0.00337402,12.566361*B_var*mom_var/h_var,True
+II.15.4,-B*mom*cos(theta),4.3275708e-05,B_var*(3.5151865e-5 - mom_var)*cos(theta_var),False
+I.41.16,h*omega**3/(2*pi**3*c**2*(exp(h*omega/(2*pi*T*kb)) - 1)),0.00025710877,0.10179886*T_var*kb_var*(omega_var**2)**exp(-0.13041008*h_var/(T_var*kb_var))/c_var**2,False
+I.18.12,F*r*sin(theta),13.503461,9.034713*sin(F_var),False
+II.11.3,Ef*q/(m*(-omega**2 + omega_0**2)),1.6017462e-05,Ef_var*q_var/(m_var*omega_0_var*(1.238501*omega_0_var - omega_var)),False
+II.21.32,q/(4*pi*epsilon*r*(1 - v/c)),8.37307e-07,0.11405866*q_var/(epsilon_var*r_var*(-0.1724023*c_var + sqrt(c_var - v_var))),False
+II.6.15b,3*p_d*sin(theta)*cos(theta)/(4*pi*epsilon*r**3),9.872648e-10,0.23873252*p_d_var*sin(theta_var)*cos(theta_var)/(epsilon_var*r_var**3),True
+II.34.29b,2*pi*B*Jz*g_*mom/h,0.088370085,6.283152*B_var*Jz_var*g__var*mom_var/h_var,True
+I.14.3,g*m*z,0.0010939745,g_var*m_var*z_var,True
+I.13.12,G*m1*m2*(1/r2 - 1/r1),8.304743e-05,G_var*m1_var*m2_var*(r1_var - r2_var)/(r1_var*r2_var),True
+I.10.7,m_0/sqrt(1 - v**2/c**2),0.0003779104,m_0_var/cos(v_var/c_var),False
+I.12.5,Ef*q2,0.00011005228,Ef_var*q2_var,True
+I.43.16,Volt*mu_drift*q/d,0.00022184853,Volt_var*mu_drift_var*q_var/d_var,True
+II.15.5,-Ef*p_d*cos(theta),4.4193195e-05,(-Ef_var*p_d_var + 0.00013737397)*cos(theta_var),False
+I.12.11,q*(B*v*sin(theta) + Ef),0.00080835685,q_var*(B_var*v_var*sin(theta_var) + Ef_var),True
