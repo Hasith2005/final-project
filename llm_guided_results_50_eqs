@@ -1,0 +1,51 @@
+Filename,Equation,loss,Predicted Equation,equivalent
+III.15.27,2*pi*alpha/(d*n),0.0016451393,6.2830334*alpha_var/(d_var*n_var),True
+III.4.33,h*omega/(2*pi*(exp(h*omega/(2*pi*T*kb)) - 1)),0.6115897,T_var*kb_var,False
+I.24.6,m*x**2*(omega**2 + omega_0**2)/4,35.262974,1.0963582**magnetic_flux_var,False
+III.9.52,8*pi*Ef*p_d*sin(t*(omega - omega_0)/2)**2/(h*t*(omega - omega_0)**2),15.049822,Ef_var*p_d_var*t_var*(cos(omega_0_var - omega_var) + 1.4017688)**2.115792/h_var,False
+I.34.14,omega_0*(1 + v/c)/sqrt(1 - v**2/c**2),0.011911478,omega_0_var*exp(v_var/c_var),False
+III.7.38,4*pi*B*mom/h,0.34140012,12.567903*B_var*mom_var/h_var,True
+II.15.4,-B*mom*cos(theta),0.004291137,-B_var*mom_var*cos(theta_var) - 0.0004256974,False
+I.41.16,h*omega**3/(2*pi**3*c**2*(exp(h*omega/(2*pi*T*kb)) - 1)),0.36117467,(omega_var/c_var)**(sqrt(kb_var))*log(T_var),False
+I.18.12,F*r*sin(theta),13.514406,9.032104*sin(F_var),False
+II.11.3,Ef*q/(m*(-omega**2 + omega_0**2)),0.0005837913,Ef_var*omega_0_var*q_var*exp(-omega_0_var)/m_var,False
+II.21.32,q/(4*pi*epsilon*r*(1 - v/c)),0.00016283512,0.110240564*q_var/(epsilon_var*r_var),False
+II.6.15b,3*p_d*sin(theta)*cos(theta)/(4*pi*epsilon*r**3),2.401885e-06,p_d_var*sin(theta_var)*cos(theta_var)/(epsilon_var*(6.1960096**r_var - 1.84791)),False
+II.34.29b,2*pi*B*Jz*g_*mom/h,8.9062195,6.282483*B_var*Jz_var*g__var*mom_var/h_var,True
+I.14.3,g*m*z,0.10948858,g_var*m_var*z_var,True
+I.13.12,G*m1*m2*(1/r2 - 1/r1),5.697374,m1_var*m2_var**log(G_var)*log(r1_var/r2_var**1.012326),False
+I.10.7,m_0/sqrt(1 - v**2/c**2),0.001493162,m_0_var/cos(v_var/c_var),False
+I.12.5,Ef*q2,0.010568444,Ef_var*q2_var,True
+I.43.16,Volt*mu_drift*q/d,0.022332482,Volt_var*mu_drift_var*q_var/d_var,True
+II.15.5,-Ef*p_d*cos(theta),0.0043854406,p_d_var*(0.00041298405 - Ef_var)*cos(theta_var),False
+I.12.11,q*(B*v*sin(theta) + Ef),0.078420095,q_var*(B_var*v_var*sin(theta_var) + Ef_var),True
+I.6.2,sqrt(2)*exp(-theta**2/(2*sigma**2))/(2*sqrt(pi)*sigma),3.0551226e-05,15.226067/temperature_var - 9.216109/entropy_var,False
+I.32.17,4*pi*Ef**2*c*epsilon*omega**4*r**2/(3*(omega**2 - omega_0**2)**2),3.0665805,5.3125176**(Ef_var*r_var*log(omega_var) + sin(omega_0_var)),False
+I.15.3x,(-t*u + x)/sqrt(1 - u**2/c**2),0.04348719,-t_var*u_var + x_var,False
+I.14.4,k_spring*x**2/2,0.040365122,0.4999641954866*k_spring_var*x_var**1.9999453,False
+III.10.19,mom*sqrt(Bx**2 + By**2 + Bz**2),41.426235,0.259234852777935*pressure_var,False
+I.30.3,Int_0*sin(n*theta/2)**2/sin(theta/2)**2,0.5192755,Int_0_var*exp(cos(theta_var) - cos(n_var*theta_var)),False
+I.34.8,B*q*v/p,0.02186262,B_var*q_var*v_var/p_var,True
+I.43.31,T*kb*mob,0.11238452,T_var*kb_var*mob_var,True
+I.12.4,q1/(4*pi*epsilon*r**2),1.0594874e-07,0.07955779*q1_var/(epsilon_var*r_var**1.9996935),False
+I.40.1,n_0*exp(-g*m*x/(T*kb)),0.033178862,0.23732316*0.9141574**(g_var*m_var*x_var)*T_var*log(kb_var**n_0_var),False
+I.27.6,1/(n/d2 + 1/d1),7.2088835e-05,d2_var/(n_var + d2_var/d1_var),True
+III.4.32,1/(exp(h*omega/(2*pi*T*kb)) - 1),0.12676,6.114405*T_var*kb_var/(h_var*omega_var),False
+II.6.15a,3*p_d*z*sqrt(x**2 + y**2)/(4*pi*epsilon*r**5),0.003241067,0.017529704**r_var*entropy_var*p_d_var*z_var/epsilon_var,False
+I.37.4,I1 + I2 + 2*sqrt(I1*I2)*cos(delta),0.1261787,0.11682837*temperature_var*(cos(delta_var) + 1.0274396),False
+I.43.43,kb*v/(A*(gamma - 1)),0.00054105226,kb_var*v_var/(A_var*(gamma_var - 1.0002477)),False
+II.8.7,3*q**2/(20*pi*d*epsilon),1.4551077e-06,0.0473711229518917*q_var**2.0040848/(d_var*epsilon_var),False
+I.6.2b,sqrt(2)*exp(-(theta - theta1)**2/(2*sigma**2))/(2*sqrt(pi)*sigma),0.00041741782,0.43743056/(sigma_var + (1.8016396/theta_var)**(theta1_var - theta_var) - 0.8343811),False
+II.34.2a,q*v/(2*pi*r),5.364948e-05,0.15914172*q_var*v_var/r_var,True
+II.11.27,Ef*alpha*epsilon*n/(-alpha*n/3 + 1),0.0007750966,1.3987062*Ef_var*epsilon_var*(alpha_var*n_var)**1.1897762,False
+I.34.1,omega_0/(1 - v/c),0.0020386223,c_var*omega_0_var/(c_var - v_var),True
+II.6.11,p_d*cos(theta)/(4*pi*epsilon*r**2),5.1104184e-08,0.07957895*p_d_var*cos(theta_var)/(epsilon_var*r_var**2),True
+II.11.20,Ef*n_rho*p_d**2/(3*T*kb),0.19331081,Ef_var*n_rho_var*p_d_var*log(p_d_var)/(T_var*kb_var),False
+II.13.17,I/(2*pi*c**2*epsilon*r),0.0001782029,0.8472053**luminosity_var,False
+I.15.3t,(t - u*x/c**2)/sqrt(1 - u**2/c**2),0.011496626,t_var - x_var/temperature_var,False
+II.37.1,B*mom*(chi + 1),0.1859857,mom_var*(B_var*chi_var + B_var),True
+III.13.18,4*pi*E_n*d**2*k/h,53.54581,12.566895*E_n_var*d_var**2*k_var/h_var,True
+II.4.23,q/(4*pi*epsilon*r),5.5218225e-05,q_var/(pressure_var*(r_var + 0.44131786)),False
+II.2.42,A*kappa*(-T1 + T2)/d,0.0056739273,A_var*kappa_var*(-T1_var + T2_var)/d_var,True
+II.27.18,Ef**2*epsilon,0.165058,Ef_var**2*epsilon_var,True
+I.34.27,h*omega/(2*pi),0.00026524547,0.019893948*luminosity_var*omega_var,True
