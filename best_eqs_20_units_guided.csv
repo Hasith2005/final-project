@@ -1,0 +1,3 @@
+complexity,loss,equation,score,sympy_format,lambda_format,Filename
+7,0.0016188374,(alpha_var / (n_var / 6.2831306)) / d_var,3.5901067477994753,alpha_var/(d_var*((n_var/6.2831306))),PySRFunction(X=>alpha_var/(d_var*((n_var/6.2831306)))),III.15.27
+3,0.6105843,T_var * kb_var,1.8748628404668057,T_var*kb_var,PySRFunction(X=>T_var*kb_var),III.4.33
